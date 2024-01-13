@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minha Enciclopédia</title>
+<style>
+
+.search-box {
+    display: block;
+    align-items: center;
+   
+}
+
+.search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    background:whitesmoke;
+}
+
+.search-button {
+    padding: 10px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+/* Estilo para hover do botão de pesquisa */
+.search-button:hover {
+    background-color: #64c160;
+    color: black;
+}
+
+.search-box input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 8px;
+        font-weight: bold;
+        background-color: #b7e3ad; /* Altere para a cor desejada */
+    }
+
+.login-button-entrar:hover {
+    background: #FFED14;
+    color:black;
+    
+}
+.login-button-criar:hover {
+    background: #FF38E4;
+    color:black;
+}
+
+.login-button-entrar {
+    padding: 8px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 10px;
+    
+        }
+      
+
+.login-button-criar {
+    padding: 8px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+            
+        }
+
+
+
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    background: #F2EFFF;
+}
+
+header {
+    background-color: #F2EFFF;;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    
+    margin-right: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+}
+
+a {
+      
+      text-decoration: none; 
+      border-bottom: 2px solid #007BFF; 
+      transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out; 
+      background-color: #29298A;
+      color:white;
+      text-align:center;
+      display: block;
+      margin: 20px; 
+      padding: 10px;
+      border-radius: 10px;
+    }
+a:hover {
+      color: black;
+      border-bottom: 2px solid #0b1bca;
+      background-color: #B3FF3F;
+    }
+ /* Altera a cor do link quando ele é clicado */
+a:active {
+      color: #004080;
+      border-bottom: 2px solid #004080;
+    }
+nav {
+    width: 20%;
+    background-color:#F2EFFF;
+    }
+
+nav ul {
+   
+    margin-bottom: 10px;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background: #29298A;
+}
+h3 {
+    background: lightblue;
+}
+main {
+    width: 60%;
+    padding: 20px;
+}
+
+aside {
+    width: 20%;
+    background-color: #F2EFFF;    
+    
+    
+}
+
+footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+    <header>
+        <div class="search-box">  
+            <input type="text" id="pesquisar" name="pesquisar" placeholder="Digite sua pesquisa...">
+            <label for="pesquisar" class="search-button">Pesquisar</label>
+        </div>
+
+        <div class="login-buttons">
+            <button class="login-button-entrar">Entrar</button>
+            <button class="login-button-criar">Criar Conta</button>
+    </header>
+
+    <div class="container">
+        <nav>
+            <h4>  Leituras relacionadas </h4>
+            <hr>
+            <ul>
+                
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="livro01.html">Cientistas de batina</a></li>
+                <li><a href="livro02.html">The Savior of Science</a></li>
+                <li><a href="livro03.html">Como a Igreja Católica construiu a civilização ocidental</a></li>
+                <li><a href="livro04.html">Criação do ocidente</a></li>
+                <li><a href="livro06.html">Idade Média: um tempo de trevas?</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="section1">
+                <hr>
+                <h1>Leituras recomendadas</h1>
+                <hr>
+               
+            </section>
+            <section id="section3">
+                <h3>Física Moderna e Fé Antiga </h3>
+                <p><b>Autor</b>: Stephen M. Barr </p>
+                <p><b>Editora</b>:University of Notre Dame Press</p>
+               
+                <p>Uma considerável quantidade de debate público e impressões na mídia tem sido dedicada à "guerra entre ciência e religião". Em seu novo livro acessível e extremamente legível, Stephen M. Barr demonstra que o que realmente está em guerra com a religião não é a ciência em si, mas uma filosofia chamada materialismo científico. "Modern Physics and Ancient Faith" argumenta que as grandes descobertas da física moderna são mais compatíveis com os ensinamentos centrais do cristianismo e do judaísmo sobre Deus, o cosmos e a alma humana do que com o ponto de vista ateísta do materialismo científico.</p>
+                <p>O materialismo científico surgiu a partir das descobertas científicas feitas desde a época de Copérnico até o início do século XX. Essas descobertas levaram muitas pessoas ponderadas à conclusão de que o universo não tem causa ou propósito, que a raça humana é um subproduto acidental de forças materiais cegas e que a realidade última é a própria matéria. Barr argumenta que as descobertas revolucionárias do século XX contradizem essa linha de pensamento. Ele utiliza cinco dessas descobertas - a teoria do Big Bang, teorias de campo unificado, coincidências antrópicas, o Teorema de Gödel em matemática e a teoria quântica - para lançar sérias dúvidas sobre a visão materialista do mundo e para dar maior credibilidade às afirmações judaico-cristãs sobre Deus e o universo.</p>
+                <p>Escrito em linguagem clara, o texto rigoroso e justo de Barr explica a física moderna para leitores em geral sem simplificações excessivas. Utilizando os insights da física moderna, ele revela que as descobertas científicas modernas e a fé religiosa são profundamente consonantes. Qualquer pessoa interessada em ciência e religião encontrará "Modern Physics and Ancient Faith" inestimável.</p>    
+            </section>
+        </main>
+
+        <aside>
+           
+            <hr>
+            
+               
+                <img src="livro05.png" alt="Imagem da Capa do livro Física Moderna e Fé antiga" width="250" height="350">
+            
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Minha Enciclopédia. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

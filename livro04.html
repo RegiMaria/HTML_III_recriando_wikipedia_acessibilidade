@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minha Enciclopédia</title>
+<style>
+
+.search-box {
+    display: block;
+    align-items: center;
+   
+}
+
+.search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    background:whitesmoke;
+}
+
+.search-button {
+    padding: 10px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.search-button:hover {
+    background-color: #64c160;
+    color: black;
+}
+
+.search-box input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 8px;
+        font-weight: bold;
+        background-color: #b7e3ad; /* Altere para a cor desejada */
+    }
+
+
+.login-button-entrar {
+    padding: 8px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+      
+.login-button-criar {
+    padding: 8px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;     
+}
+.login-button-entrar:hover {
+    background: #FFED14;
+    color:black;
+    
+}
+.login-button-criar:hover {
+    background: #FF38E4;
+    color:black;
+}
+
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    background: #F2EFFF;
+}
+
+header {
+    background-color: #F2EFFF;;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    
+    margin-right: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+}
+
+a {
+      
+      text-decoration: none; 
+      font-weight: bold; 
+      border-bottom: 2px solid #007BFF; 
+      transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+      background-color: #29298A;
+      color:white;
+      text-align:center;
+      display: block;
+      margin: 20px; 
+      padding: 10px;
+      border-radius: 10px;
+    }
+a:hover {
+      color: black;
+      border-bottom: 2px solid #0b1bca;
+      background-color: #B3FF3F;
+}
+ 
+a:active {
+      color: #004080;
+      border-bottom: 2px solid #004080;
+}
+nav {
+    width: 20%;
+    background-color:#F2EFFF;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background: #29298A;
+}
+h3 {
+    background: lightblue;
+}
+main {
+    width: 60%;
+    padding: 20px;
+}
+
+aside {
+    width: 20%;
+    background-color: #F2EFFF;    
+    
+    
+}
+
+footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+    <header>
+        <div class="search-box">  
+            <input type="text" id="pesquisar" name="pesquisar" placeholder="Digite sua pesquisa...">
+            <label for="pesquisar" class="search-button">Pesquisar</label>
+        </div>
+
+        <div class="login-buttons">
+            <button class="login-button-entrar">Entrar</button>
+            <button class="login-button-criar">Criar Conta</button>
+    </header>
+
+    <div class="container">
+        <nav>
+            <h4>  Leituras relacionadas </h4>
+            <hr>
+            <ul>
+                
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="livro01.html">Cientistas de batina</a></li>
+                <li><a href="livro02.html">The Savior of Science</a></li>
+                <li><a href="livro03.html">Como a Igreja Católica construiu a civilização ocidental</a></li>
+                <li><a href="livro05.html">Física Moderna e Fé Antiga</a></li>
+                <li><a href="livro06.html">Idade Média: um tempo de trevas?</a></li>            </ul>
+        </nav>
+
+        <main>
+            <section id="section1">
+                <hr>
+                <h1>Leituras recomendadas</h1>
+                <hr>
+               
+            </section>
+            <section id="section3">
+                <h3>Criação do Ocidente - A Religião e a Civilização Medieval </h3>
+                <p><b>Autor</b>: Christopher Dawson </p>
+                <p><b>Editora</b>: É Realizações</p>
+                <p>Criação do Ocidente cobre o período que vai da queda do Império Romano do Ocidente até o fim da Idade Média. Mostra que, em vez de fatores seculares e econômicos, foi a religião que permitiu a um pequeno grupo de povos da Europa Ocidental adquirir poder para transformar o mundo e emancipar a humanidade de uma dependência imemorial da natureza, levando-a a inevitáveis estágios crescentes de progresso.</p>
+            </section>
+        </main>
+
+        <aside>
+            <hr>
+                <img src="livro4.png" alt="Deus trabalhando na criação do universo" width="250" height="350"> 
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Minha Enciclopédia. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minha Enciclopédia</title>
+<style>
+
+.search-box {
+    display: block;
+    align-items: center;
+   
+}
+
+.search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    background:whitesmoke;
+}
+
+.search-button {
+    padding: 10px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.search-button:hover {
+    background-color: #64c160;
+    color: black;
+}
+.search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-weight: bold;
+    background-color: #b7e3ad; 
+}
+
+.login-button-entrar {
+    padding: 8px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 10px;
+    
+}
+      
+.login-button-criar {
+    padding: 8px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+            
+}
+.login-button-entrar:hover {
+    background: #FFED14;
+    color:black;
+    
+}
+.login-button-criar:hover {
+    background: #FF38E4;
+    color:black;
+}
+
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    background: #F2EFFF;
+}
+
+header {
+    background-color: #F2EFFF;;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    
+    margin-right: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+}
+
+a {
+      
+    text-decoration: none; 
+    font-weight: bold; 
+    border-bottom: 2px solid #007BFF; 
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+    background-color: #29298A;
+    color:white;
+    text-align:center;
+    display: block;
+    margin: 20px; /* Adicione margem para espaçamento */
+    padding: 10px;
+    border-radius: 10px;
+}
+a:hover {
+    color: black;
+    border-bottom: 2px solid #0b1bca;
+    background-color: #B3FF3F;
+}
+ 
+a:active {
+    color: #004080;
+    border-bottom: 2px solid #004080;
+    }
+nav {
+    width: 20%;
+    background-color:#F2EFFF;
+    }
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background: #29298A;
+}
+h3 {
+    background: lightblue;
+}
+main {
+    width: 60%;
+    padding: 20px;
+}
+
+aside {
+    width: 20%;
+    background-color: #F2EFFF;      
+}
+
+footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="search-box">  
+            <input type="text" id="pesquisar" name="pesquisar" placeholder="Digite sua pesquisa...">
+            <label for="pesquisar" class="search-button">Pesquisar</label>
+        </div>
+
+        <div class="login-buttons">
+            <button class="login-button-entrar">Entrar</button>
+            <button class="login-button-criar">Criar Conta</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav>
+            <h4>  Leituras relacionadas </h4>
+            <hr>
+            <ul>
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="livro01.html">Cientistas de batina</a></li>
+                <li><a href="livro02.html">The Savior of Science</a></li>
+                <li><a href="livro04.html">Criação do Ocidente</a></li>
+                <li><a href="livro05.html">Física Moderna e Fé Antiga</a></li>
+                <li><a href="livro06.html">Idade Média: um tempo de trevas?</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="section1">
+                <hr>
+                <h1>Leituras recomendadas</h1>
+                <hr>
+            <section id="section3">
+                <h3>Como a Igreja Católica construiu a civilização ocidental</h3>
+                <p><b>Autores</b>: Jr. Thomas E. Woods </p>
+                <p><b>Editora</b>: Quadrante </p>                 
+                <p> Se perguntarmos a um estudante universitário o que sabe do contributo da Igreja Católica para a sociedade, a sua resposta talvez se resuma a uma palavra: <b>opressão</b>, por exemplo, ou <b>obscurantismo</b>. No entanto, essa palavra deveria ser <strong>civilização</strong>. O autor destas páginas, Thomas Woods, doutorado pela Universidade de Columbia, mostra como toda a Civilização Ocidental nasceu e se desenvolveu apoiada nos valores e ensinamentos da Igreja Católica. Em concreto explica, entre muitas outras coisas:
+                    <ul>
+                        <li>Por que o milagre da ciência moderna e de uma filosofia que levou a razão à sua plenitude só puderam nascer sobre o solo da mentalidade católica;</li>
+                        <li>Como a Igreja criou uma instituição que mudou o mundo: a Universidade; </li>
+                        <li>Como ela nos deu uma arquitetura e umas artes plásticas de beleza incomparável; </li>
+                        <li>Como os filósofos escolásticos desenvolveram os conceitos básicos da economia moderna, que trouxe para o Ocidente uma riqueza sem precedentes;</li>
+                        <li> Como o nosso Direito, garantia da liberdade e da justiça, nasceu em ampla medida do Direito canônico;</li>
+                        <li>Como a Igreja criou praticamente todas as instituições de assistência que conhecemos, dos hospitais à previdência;</li>
+                        <li>Como humanizou a vida, ao insistir durante séculos nos direitos universais do ser humano – tanto dos cristãos como dos pagãos – e na sacralidade de cada pessoa.</li>
+                    </ul>
+                <p>Num momento em que se propaga uma imagem da Igreja como inimiga dos progressos da ciência e da técnica, e da liberdade do pensamento, este é um livro que desfaz preconceitos, corrige clichês e ensina inúmeras verdades teimosamente omitidas no ensino colegial e universitário.</p>
+                    
+        </main>
+
+        <aside>
+            <hr>
+                <img src="livro3.png" alt="Deus trabalhando na criação do universo" width="250" height="350">
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Minha Enciclopédia. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

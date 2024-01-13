@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minha Enciclopédia</title>
+<style>
+
+.search-box {
+    display: block;
+    align-items: center;
+   
+}
+
+.search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    background:whitesmoke;
+}
+
+.search-button {
+    padding: 10px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.search-button:hover {
+    background-color: #64c160;
+    color: black;
+}
+
+.search-box input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 8px;
+        font-weight: bold;
+        background-color: #b7e3ad; 
+}
+
+
+.login-button-entrar {
+    padding: 8px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 10px;
+    
+}      
+
+.login-button-criar {
+    padding: 8px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+            
+}
+.login-button-entrar:hover {
+    background: #FFED14;
+    color:black;
+    
+}
+.login-button-criar:hover {
+    background: #FF38E4;
+    color:black;
+}
+
+header {
+    background-color: #F2EFFF;;
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    background: #F2EFFF;
+}
+
+img {
+
+    width: 50;
+    height: 10;
+}
+
+.container {
+    display: flex;
+}
+
+a {
+    text-decoration: none; 
+    font-weight: bold; 
+    border-bottom: 2px solid #007BFF; 
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+    background-color: #29298A;
+    color:white;
+    text-align:center;
+    display: block;
+    margin: 20px; 
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+a:hover {
+      color: black;
+      border-bottom: 2px solid #0b1bca;
+      background-color: #B3FF3F;
+}
+
+a:active {
+      color: #004080;
+      border-bottom: 2px solid #004080;
+}
+nav {
+    width: 20%;
+    background-color:#F2EFFF;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background: #29298A;
+}
+h3 {
+    background: lightblue;
+}
+main {
+    width: 60%;
+    padding: 20px;
+}
+
+aside {
+    width: 20%;
+    background-color: #F2EFFF;    
+}
+
+footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+    <header>
+        <div class="search-box">   
+            <input type="text" id="pesquisar" name="pesquisar" placeholder="Digite sua pesquisa...">
+            <label for="pesquisar" class="search-button">Pesquisar</label>
+        </div>
+        
+        <div class="login-buttons">
+            <button class="login-button-entrar">Entrar</button>
+            <button class="login-button-criar">Criar Conta</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav>
+            <h4> Leituras relacionadas </h4>
+            <hr>
+            <ul>
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="livro02.html">The Savior of Science</a></li>
+                <li><a href="livro03.html">Como a Igreja Católica construiu a civilização ocidental</a></li>
+                <li><a href="livro04.html">Criação do Ocidente</a></li>
+                <li><a href="livro05.html">Física Moderna e Fé Antiga</a></li>
+                <li><a href="livro06.html">Idade Média: um tempo de trevas?</a></li>
+                
+            </ul>
+        </nav>
+        <main>
+            <section id="section1">
+                <hr>
+                <h1>Leituras recomendadas</h1>
+                <hr>
+                <h3>Cientistas de batina - de Copérnico, Pai do Heliocentrismo, a Lemaître, Pai do Big Bang</h3>  
+                <p><b>Autores</b>:  Francesco Agnoli e Andrea Bartelloni</p>
+                <p><b>Editora</b>: Eclesiae</p>  
+                <p>"Ainda que no mundo atual possa parecer estranho um religioso ser também cientista, a Igreja sempre esteve na vanguarda do conhecimento humano quando criou um ambiente propício aos estudos com as universidades medievais, e também a primeira Academia de Ciências da história. Cientistas de batina conta a história de algumas personalidades que viveram, ao mesmo tempo, uma estrondosa fé religiosa e uma grande paixão pela investigação científica. Entre a revolução heliocêntrica do cônego Nicolau Copérnico até a famosa teoria do Big Bang, do jesuíta Georges Lemaître, estão inúmeros religiosos responsáveis por descobertas científicas fundamentais, como a da genética pelo frade franciscano Gregor Mendel, os princípios da hidráulica, com o Padre Benedetto Castelli, do magnetismo, com o jesuíta Leonardo Garzoni, da meteorologia, com Santo Alberto Magno, da neurociência, com Luigi Galvani e tantos outros referidos neste livro." </p>
+            </section>
+              
+        </main>
+
+        <aside>
+            <hr>
+            <img src="livro1.png" width="200" height="350"> 
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Minha Enciclopédia. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

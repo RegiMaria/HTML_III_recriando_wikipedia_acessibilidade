@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/#style.css">
+    <title>Minha Enciclopédia</title>
+<style>
+
+.search-box {
+    display: block;
+    align-items: center;
+   
+}
+
+.search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    background:whitesmoke;
+}
+
+.search-button {
+    padding: 10px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.search-button:hover {
+    background-color: #64c160;
+    color: black;
+}
+
+.search-box input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 8px;
+        font-weight: bold;
+        background-color: #b7e3ad;
+}
+
+.login-button-entrar {
+    padding: 8px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 10px;
+    
+}
+.login-button-criar {
+    padding: 8px;
+    background-color: #2832FF;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+            
+}
+.login-button-entrar:hover {
+    background: #FFED14;
+    color:black;
+    
+}
+.login-button-criar:hover {
+    background: #FF38E4;
+    color:black;
+}
+
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    background: #F2EFFF;
+}
+
+header {
+    background-color: #F2EFFF;;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    
+    margin-right: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+}
+
+a {
+      
+    text-decoration: none; 
+    font-weight: bold;
+    border-bottom: 2px solid #007BFF;
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out; 
+    background-color: #29298A;
+    color:white;
+    text-align:center;
+    display: block;
+    margin: 20px; 
+    padding: 10px;
+    border-radius: 10px;
+    }
+a:hover {
+      color: black;
+      border-bottom: 2px solid #0b1bca;
+      background-color: #B3FF3F;
+    }
+
+a:active {
+      color: #004080;
+      border-bottom: 2px solid #004080;
+    }
+nav {
+    width: 20%;
+    background-color:#F2EFFF;
+    }
+
+nav ul {
+   
+    margin-bottom: 10px;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background: #29298A;
+}
+h3 {
+    background: lightblue;
+}
+main {
+    width: 60%;
+    padding: 20px;
+}
+
+aside {
+    width: 20%;
+    background-color: #F2EFFF;    
+    
+    
+}
+
+footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+    <header>
+        <div class="search-box">  
+            <input type="text" id="pesquisar" name="pesquisar" placeholder="Digite sua pesquisa...">
+            <label for="pesquisar" class="search-button">Pesquisar</label>
+        </div>
+
+        <div class="login-buttons">
+            <button class="login-button-entrar">Entrar</button>
+            <button class="login-button-criar">Criar Conta</button>
+    </header>
+
+    <div class="container">
+        <nav>
+            <h4>  Leituras relacionadas </h4>
+            <hr>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="livro01.html">Cientistas de batina</a></li>
+                <li><a href="livro02.html">The Savior of Science</a></li>
+                <li><a href="livro03.html">Como a Igreja Católica construiu a civilização</a></li>
+                <li><a href="livro04.html">Criação do Ocidente </a></li>
+                <li><a href="livro06.html">Idade Média: um tempo de trevas?</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="section1">
+                <hr>
+                <h1 id="topo">A Idade Média foi um tempo de trevas?</h1>
+                <h2>Saiba mais sobre a ciência e a tecnologia nesse período</h2>
+                <hr>
+                <p>Por prof. Felipe de Aquino</p>
+                <p>22 de setembro de 2020</p>
+               <p>A Idade Média é um período da história da Europa entre os séculos V e XV.  Essa “era” durou aproximadamente mil anos que se caracterizaram pelo predomínio do Cristianismo em todas as esferas da vida humana na Europa.  Nesta época as grandes descobertas da tecnologia e ciência foi responsabilidade da Igrejas, mas será que as pessoas sabem disso? Neste vídeo o Prof. Felipe Aquino explica sobre a ciência e a tecnologia neste período.</p>
+                <p>Confira:.</p>
+            </section></p>
+        <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/c_bKfEY_yOw?si=VW9q27SmEDGVxhtO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            
+        </div>  
+
+                <h1>Sobre o autor</h1>
+                <hr>
+                <p>O Prof. Felipe Aquino é doutor em Engenharia Mecânica pela UNESP e mestre na mesma área pela UNIFEI. Foi diretor geral da FAENQUIL (atual EEL-USP) durante 20 anos e atualmente é Professor de História da Igreja do “Instituto de Teologia Bento XVI” da Diocese de Lorena e da Canção Nova. Cavaleiro da Ordem de São Gregório Magno, título concedido pelo Papa Bento XVI, em 06/02/2012. Foi casado durante 40 anos e é pai de cinco filhos. Na TV Canção Nova, apresenta o programa “Escola da Fé” e “Pergunte e Responderemos”, na Rádio apresenta o programa “No Coração da Igreja”. Nos finais de semana prega encontros de aprofundamento em todo o Brasil e no exterior. Escreveu 73 livros de formação católica pelas editoras Cléofas, Loyola e Canção Nova.</p>
+                <hr>
+                <a href="https://cleofas.com.br/a-idade-media-foi-um-tempo-de-trevas-saiba-mais-sobre-a-ciencia-e-a-tecnologia-neste-periodo/" target="_blank" class="botao-visitar"> Artigo original </a>
+                <a href="#topo" class="botao-voltar"> Topo da página</a>
+        </main>
+
+        <aside>
+            <hr>
+            <img src="AlbertoMagno.png" alt="Imagem de vitral do Santo Alberto Magno" width="250" height="350">
+            <p>Santo Alberto Magno - Padroeiro das ciências naturais</p>
+            <p><b>"A ciência não consiste em ratificar o que outros disseram, mas em buscar as causas dos fenômenos."</b> </p>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Minha Enciclopédia. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
